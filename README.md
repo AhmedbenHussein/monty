@@ -1,2 +1,1 @@
-# monty
-LIFO, FIFO
+C monty - LIFO, FIFO
