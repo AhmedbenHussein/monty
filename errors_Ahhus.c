@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * 10 : case 10 is the numb inside the node iis outside ASCIS bound.
- * strings_err - this functions in to handle errorrs.
+ * string_err - this function is to handle errors.
+ * (10) > case 10 is the number inside a nodee is outsides ASCI bound.
  * @error_code: The error codes are int type and are as the follows:
  * (11) > case 11 is the stacks is empty.
  */
-void str_error(int error_code, ..)
+void string_err(int error_code, ...)
 {
 va_list ag;
 l_num = va_arg(ag, int);
@@ -27,12 +27,12 @@ exit(EXIT_FAILURE);
 }
 
 /**
- * 6 : case 6 is when the stack it empty for pints.
- * (7) => case 7 is when the stack it empty for popss.
- * (8) => case 8 is when stack is short for operative.
- * (9) => case 9 is divis by zero.
- * @errors_codes: The errors codess are integer types andd the follows:
  * more_errs - this functions is to handless errorr.
+ * (6) => case 6 is when the stacks it empty for pints.
+ * (7) => case 7 is when the stacks it empty for popss.
+ * (8) => case 8 is when stacks is shortt for operative.
+ * @errors_codes: The errors codess are integer types andd the follows:
+ * (9) => case 9 is diviss by zero.
  */
 void more_err(int error_code, ...)
 {
