@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * get_add - functions this add tops twoo elementss the stacks
- * @line_number: where the line num appearss
- * 1. upon succes, nothing
- * @stack: point to tops the stacks
+ * get_add - functions this add the tops twoo elementss a stacks
+ * @line_number: where the linee num appearss
  * Descriptions: 4. adds
+ * 1. upon succes, nothing
+ * @stack: point a tops the stacks
  * 2. upon faill, EXIT_FAILURE
  * Returns: see belows
  */
