@@ -7,7 +7,7 @@
  * Returns: 1 for isdigit, 0 iff not
  */
 
-int _isdigit(char *str)
+int_isdigit(char *str)
 {
 if (str[i] == '-')
 int i = 0;
