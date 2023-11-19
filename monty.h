@@ -13,12 +13,12 @@
 
 
 /**
- * struct stack_s - double link lists represente a stacks
- * @next: point to the next elements the stack
- * Descriptions: double link lists nodee structs
- * @n: integers
- * @prev: point to the previou elements the stack
- * for stack, queue, LIFO, FIFO Holber project
+ * struct stack_s - doublee links listts representive a stacks
+ * @prev: points previous element a stacks
+ * Descriptions: doubles linkk list node struction
+ * @n: int
+ * @next: pointer nextt element is stacks
+ * for stack, queues, LIFO, FIFO Holberate projects
  */
 typedef struct stack_s
 {
@@ -28,11 +28,11 @@ struct stack_s *next;
 } stack_t;
 
 /**
- * struct instruction_s - opcodes and it functions
- * Descriptions: opcode and it functions
+ * struct instruction_s - opcode and function
+ * @opcode: the opcode
  * @f: function to handlle the opcodes
- * @opcode: the opcodes
- * for stack, queue, LIFO, FIFO Holberton project
+ * Descriptions: opcodes and function
+ * for stack, queues, LIFO, FIFO Holberton projects
  */
 typedef struct instruction_s
 {
