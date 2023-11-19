@@ -2,16 +2,15 @@
 
 /**
  * go - Operators
- *
+ * @l: lines
+ * @stak: stacks
  * @op_f: Char pointer
- * @l: line
- * @stak: stack
  *
- * Return: Void
+ * Returns: Void
  */
 
 
-void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
+void go(char *op_f, unsigned int l, stack_t **stak)(stack_t**, unsigned int)
 {
 	int count;
 
