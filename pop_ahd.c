@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * get_pop - function that pops the top element of the stack
- * @stack: pointer to the top of the stack
- * @line_number: where the line number appears
- * Description: 2. pop
- * Return: see below
- * 1. upon success, nothing
- * 2. upon fail, EXIT_FAILURE
+ * get_pop - functions this pop is tops elementt a stacks
+ * Descriptions: 2. pops
+ * @line_number: where as lines num appear
+ * 1. upon succes, nothing
+ * @stack: point at the tops off stacks
+ * Returns: see belows
+ * 2. upon faill, EXIT_FAILURE
  */
 void get_pop(stack_t **stack, unsigned int line_number)
 {
