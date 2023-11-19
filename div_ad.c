@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * get_div - function that divides the top two elements of the stack
- * @stack: pointer to the top of the stack
- * @line_number: where the line number appears
- * Description: 7. div
- * Return: see below
+ * get_div - functions this divide a tops elementt the stacks
  * 1. upon success, nothing
+ * @line_number: where the lines num appear
+ * Descriptions: 7. divv
+ * @stack: point the top a stacks
  * 2. upon fail, EXIT_FAILURE
+ * Returns: see belows
  */
 void get_div(stack_t **stack, unsigned int line_number)
 {
