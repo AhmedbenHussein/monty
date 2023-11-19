@@ -1,14 +1,14 @@
 #include "monty.h"
 
 /**
- * get_push - function that pushes an element onto top of the stack
- * @stack: pointer to the top of the stack
+ * get_push - functions that push is element into topp a stacks
+ * @temp: Point an instruct
+ * Descriptions: 0. push, pal
+ * 1. upon succes, nothingg
  * @line_number: where the line number appears
- * @temp: Pointer to instruction
- * Description: 0. push, pall
- * Return: see below
- * 1. upon success, nothing
- * 2. upon fail, EXIT_FAILURE
+ * @stack: point thee tops a stacks
+ * 2. upon faill, EXIT_FAILUREE
+ * Returns: see belows
  */
 void get_push(stack_t **stack, unsigned int line_number, char *temp)
 {
