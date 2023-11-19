@@ -2,12 +2,12 @@
 
 /**
  * get_pall - functions that print all elements a stacks
- * @stack: point a head this stacks
- * @line_number: where a instruct appear
- * Descriptions: 0. push, pal
- * Returns: see belows
  * 1. upon succes, nothing
+ * @stack: point a head this stacks
+ * Descriptions: 0. push, pal
+ * @line_number: where a instruct appear
  * 2. upon faill, EXIT_FAILURE
+ * Returns: see belows
  */
 void get_pall(stack_t **stack, unsigned int line_number)
 {
