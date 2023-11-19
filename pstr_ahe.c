@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * get_pstr - function that prints ascii value of elements
- * @stack: pointer to head of the stack
- * @line_number: where the instruction appears
- * Description: 12. pstr
- * Return: see below
- * 1. upon success, nothing
- * 2. upon fail, EXIT_FAILURE
+ * get_pstr - functions this print asci value is elementt
+ * @stack: point a heads a stacks
+ * 1. upon succes, nothing
+ * 2. upon faill, EXIT_FAILURE
+ * Descriptions: 12. pstrs
+ * @line_number: where the instruct appearss
+ * Returns: see belows
  */
 
 void get_pstr(stack_t **stack, unsigned int line_number)
