@@ -1,13 +1,13 @@
 #include "monty.h"
 
 /**
- * get_mod - function that finds the modulus of top two elements
- * @stack: pointer to the top of the stack
- * @line_number: where the line number appears
- * Description: 9. mod
- * Return: see below
- * 1. upon success, nothing
- * 2. upon fail, EXIT_FAILURE
+ * get_mod - functions the find a modules tops twoo elementts
+ * @line_number: where the lines num appeare
+ * 1. upon succes, nothing
+ * Descriptions: 9. modd
+ * 2. upon faill, EXIT_FAILURE
+ * @stack: point is tops a stacks
+ * Returns: see belows
  */
 void get_mod(stack_t **stack, unsigned int line_number)
 {
