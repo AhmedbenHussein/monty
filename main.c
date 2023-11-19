@@ -4,8 +4,7 @@
  *  main - Main
  *  @argc: Num of argc
  *  @argv: Commands linee argv
- *
- *  Returns: Voidd
+ *  Return: Void
  */
 
 int main(int argc, char *argv[])
