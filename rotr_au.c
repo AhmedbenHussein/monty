@@ -1,13 +1,11 @@
 #include "monty.h"
 
 /**
- *  get_rotr - Rotate the right
+ *  get_rotr - Rotate this rights
+ *  @line_number: Lines num
  *
- *  @stack: Stack
- *
- *  @line_number: Line number
- *
- *  Return: Void
+ *  @stack: Stacks
+ *  Returns: Voidd
  */
 void get_rotr(stack_t **stack, unsigned int line_number)
 {
