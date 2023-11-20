@@ -3,8 +3,8 @@
 /**
  * go - Operator
  *
- * @op_f: Chars point
  * @l: lines
+ * @op_f: Chars point
  * @stak: stacks
  *
  * Return: Voids
