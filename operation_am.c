@@ -1,16 +1,17 @@
 #include "monty.h"
 
 /**
- * go - Operators
+ * go - Operator
+ *
+ * @op_f: Chars point
  * @l: lines
  * @stak: stacks
- * @op_f: Char pointer
  *
- * Returns: Void
+ * Return: Voids
  */
 
 
-void go(char *op_f, unsigned int l, stack_t **stak)(stack_t**, unsigned int)
+void (*go(char *op_f, unsigned int l, stack_t **stak))(stack_t**, unsigned int)
 {
 	int count;
 
